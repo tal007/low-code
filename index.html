@@ -1,0 +1,71 @@
+<!--
+ * @Author: 刘玉田 mrliu819@foxmail.com
+ * @Date: 2023-04-11 15:34:50
+ * @LastEditors: 刘玉田 mrliu819@foxmail.com
+ * @LastEditTime: 2023-06-30 14:39:50
+ * @Description:
+-->
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <script>
+    // 判断是否是IE，如果是，直接拒接访问
+    function IEVersion() {
+      let userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+      let isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+      let isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器
+      let isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+      if (isIE) {
+        let reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+        reIE.test(userAgent);
+        let fIEVersion = parseFloat(RegExp["$1"]);
+        if (fIEVersion == 7) {
+          return 7;
+        } else if (fIEVersion == 8) {
+          return 8;
+        } else if (fIEVersion == 9) {
+          return 9;
+        } else if (fIEVersion == 10) {
+          return 10;
+        } else {
+          return 6;//IE版本<=7
+        }
+      } else if (isEdge) {
+        return 'edge';//edge
+      } else if (isIE11) {
+        return 11; //IE11
+      } else {
+        return -1;//不是ie浏览器
+      }
+    }
+
+    var res = IEVersion();
+
+    // 使用IE
+    if (typeof res === "number" && res > 0) {
+      window.location.href = "/unsupport.html"
+    }
+  </script>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/favicon.ico" /> -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>迈越流程引擎</title>
+  <link rel="stylesheet" href="/css/font.css">
+  <!-- 这个 vite 中使用会报错，这里全局引用 -->
+  <script src="/js/lzutf8.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+
+  </script>
+  <!-- 这里单独引用 antd-mobile 使用 vite-plugin-cdn-import 在 header 中产出会出问题 -->
+  <!-- <script src="/lib/antd-mobile/5.29.1.min.js"></script> -->
+  <script type="module" src="/src/main.tsx"></script>
+  <!-- <script type="module" src="/src/publish.tsx"></script> -->
+</body>
+
+</html>

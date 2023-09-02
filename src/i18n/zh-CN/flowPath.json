@@ -1,0 +1,75 @@
+{
+  "common": {
+    "departmentMemberTitle": "选择部门与人员",
+    "searchPlaceHolder": "搜索{{name}}名称",
+    "formPermission": "表单操作权限",
+    "commander": "负责人"
+  },
+  "start": {
+    "approverMemberTips": "谁可以提交该审批",
+    "gatt": "组织架构",
+    "role": "角色",
+    "post": "岗位",
+    "department": "部门",
+    "member": "成员",
+    "basicSettings": "基础设置",
+    "allMember": "全员",
+    "someMember": "指定人员",
+    "notSubmit": "均不可提交"
+  },
+  "approver": {
+    "manualApproval": "人工审批",
+    "automaticAdoption": "自动通过",
+    "automaticRejection": "自动拒绝",
+
+    "setApprover": "设置审批人",
+    "operationPermissions": "表单操作权限",
+    "advancedSetting": "高级设置",
+
+    "approvalType": "审批类型",
+    "approverSettings": "审批人设置",
+    "selectMethod": "选择方式",
+    "selectRange": "选择范围",
+    "automaticApproval": "自动审批",
+
+    "initiator": "发起人自动审批（当前节点人员为发起人时）",
+    "adjacent": "相邻节点自动审批（当前节点人员为上一节点人员时）",
+    "radio": "单选",
+    "checkbox": "多选",
+    "wholeCompany": "全公司",
+    "designatedMembers": "指定成员",
+    "specifyRole": "指定角色",
+
+    "directDepartment": "直属主管",
+    "placeholderDirectDepartment": "请选择直属主管",
+    "director": "部门主管",
+    "placeholderDirector": "请选择部门主管",
+    "otherDepartments": "其他部门",
+    "role": "角色",
+    "placeholderRole": "请选择角色",
+    "originatorChoice": "发起人自选",
+
+    "automaticTransferToAdministrator": "自动转交管理员",
+    "designatedPersonnelApproval": "指定人员审批",
+
+    "sequentialApproval": "依次审批（按顺序依次审批）",
+    "counterSign": "会签（需要所有审批人同意）",
+    "orSign": "或签（一名审批人同意或拒绝即可）",
+
+    "addRole": "添加角色",
+    "addMembers": "添加成员（不能超过20人）",
+    "multiPersonApprovalMethod": "多人审批方式",
+    "whenTheApproverIsEmpty": "审批人为空时",
+    "promoter": "发起人的",
+    "otherApprover": "审批人",
+    "approvalByDepartmentHead": "部门负责人审批",
+    "departmentDesignatedPersonnelApproval": "部门指定人员审批",
+    "addDepartment": "添加部门",
+    "approvalBySuperiorAgency": "找不到主管时，由上级主管代审批",
+    "organizationalStructure": "组织架构"
+  },
+  "copy": {
+    "setCopyPerson": "设置抄送人",
+    "copyPersonSet": "抄送人设置"
+  }
+}

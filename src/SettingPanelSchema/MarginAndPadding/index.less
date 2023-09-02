@@ -1,0 +1,151 @@
+.margin-and-padding {
+  position: relative;
+  width: 100%;
+  height: 150px;
+
+  @border-transparent: 20px solid transparent;
+  @border-d6e4ff: 20px solid #d6e4ff;
+
+  .container {
+    position: absolute;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    .help-txt {
+      position: absolute;
+      font-size: 10px;
+      line-height: 20px;
+    }
+
+    input {
+      position: absolute;
+      height: 20px;
+      border: none;
+      outline: none;
+      background: transparent;
+      text-align: center;
+      width: 100%;
+      z-index: 10;
+      font-size: 10px;
+    }
+  }
+
+  .margin-top-div {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    border-left: @border-transparent;
+    border-right: @border-transparent;
+    border-top: @border-d6e4ff;
+
+    input {
+      bottom: 0;
+    }
+  }
+  .margin-right-div {
+    top: 5px;
+    bottom: 5px;
+    right: 0;
+    width: 0;
+    border-top: @border-transparent;
+    border-bottom: @border-transparent;
+    border-right: @border-d6e4ff;
+
+    input {
+      top: 0;
+      bottom: 0;
+      left: -5px;
+      width: 30px;
+      margin: auto;
+    }
+  }
+  .margin-bottom-div {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    border-left: @border-transparent;
+    border-right: @border-transparent;
+    border-bottom: @border-d6e4ff;
+
+    input {
+      top: 0;
+    }
+  }
+  .margin-left-div {
+    top: 5px;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    border-top: @border-transparent;
+    border-bottom: @border-transparent;
+    border-left: @border-d6e4ff;
+
+    input {
+      top: 0;
+      bottom: 0;
+      right: -5px;
+      width: 30px;
+      margin: auto;
+    }
+  }
+  .padding-top-div {
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    height: 0;
+    border-left: @border-transparent;
+    border-right: @border-transparent;
+    border-top: @border-d6e4ff;
+    input {
+      bottom: 0;
+    }
+  }
+  .padding-right-div {
+    top: 30px;
+    bottom: 30px;
+    right: 25px;
+    width: 0;
+    border-top: @border-transparent;
+    border-bottom: @border-transparent;
+    border-right: @border-d6e4ff;
+
+    input {
+      top: 0;
+      bottom: 0;
+      left: -5px;
+      width: 30px;
+      margin: auto;
+    }
+  }
+  .padding-bottom-div {
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    height: 0;
+    border-left: @border-transparent;
+    border-right: @border-transparent;
+    border-bottom: @border-d6e4ff;
+    input {
+      top: 0;
+    }
+  }
+  .padding-left-div {
+    top: 30px;
+    bottom: 30px;
+    left: 25px;
+    width: 0;
+    border-top: @border-transparent;
+    border-bottom: @border-transparent;
+    border-left: @border-d6e4ff;
+
+    input {
+      top: 0;
+      bottom: 0;
+      right: -5px;
+      width: 30px;
+      margin: auto;
+    }
+  }
+}

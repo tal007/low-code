@@ -1,0 +1,335 @@
+
+@font-face {
+  font-family: FZHei-B01S;
+  src: url(../font/FZHei-B01S_d83f0dd.woff);
+  src: url(../font/FZHei-B01S_d83f0dd.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZKai-Z03S;
+  src: url(../font/FZKai-Z03S_10cd3cc.woff);
+  src: url(../font/FZKai-Z03S_10cd3cc.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZShuSong-Z01S;
+  src: url(../font/FZShuSong-Z01S_9270257.woff);
+  src: url(../font/FZShuSong-Z01S_9270257.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZFangSong-Z02S;
+  src: url(../font/FZFangSong-Z02S_5536860.woff);
+  src: url(../font/FZFangSong-Z02S_5536860.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZZongYi-M05S;
+  src: url(../font/FZZongYi-M05S_1abdabb.woff);
+  src: url(../font/FZZongYi-M05S_1abdabb.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHeiS-R-GB;
+  src: url(../font/FZLanTingHeiS-R-GB_d3b0303.woff);
+  src: url(../font/FZLanTingHeiS-R-GB_d3b0303.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZBoYaSongS-GB;
+  src: url(../font/FZBoYaSongS-GB_73c639f.woff);
+  src: url(../font/FZBoYaSongS-GB_73c639f.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZCuHeiSongS-B-GB;
+  src: url(../font/FZCuHeiSongS-B-GB_c9c9631.woff);
+  src: url(../font/FZCuHeiSongS-B-GB_c9c9631.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZChaoCuHei-M10S;
+  src: url(../font/FZChaoCuHei-M10S_ac7ca24.woff);
+  src: url(../font/FZChaoCuHei-M10S_ac7ca24.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHeiS-H-GB;
+  src: url(../font/FZLanTingHeiS-H-GB_b8a39cd.woff);
+  src: url(../font/FZLanTingHeiS-H-GB_b8a39cd.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHei-DB-GBK;
+  src: url(../font/FZLanTingHei-DB-GBK_685283f.woff);
+  src: url(../font/FZLanTingHei-DB-GBK_685283f.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingKanHei-R-GBK;
+  src: url(../font/FZLanTingKanHei-R-GBK_767962f.woff);
+  src: url(../font/FZLanTingKanHei-R-GBK_767962f.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZCuYuan-M03S;
+  src: url(../font/FZCuYuan-M03S_4f8023c.woff);
+  src: url(../font/FZCuYuan-M03S_4f8023c.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZZhunYuan-M02S;
+  src: url(../font/FZZhunYuan-M02S_dcec285.woff);
+  src: url(../font/FZZhunYuan-M02S_dcec285.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZTeCuGuangHuiS-R-GB;
+  src: url(../font/FZTeCuGuangHuiS-R-GB_8b24d1e.woff);
+  src: url(../font/FZTeCuGuangHuiS-R-GB_8b24d1e.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZHanZhenGuangBiaoS-GB;
+  src: url(../font/FZHanZhenGuangBiaoS-GB_b3e184d.woff);
+  src: url(../font/FZHanZhenGuangBiaoS-GB_b3e184d.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZJianZhi-M23S;
+  src: url(../font/FZJianZhi-M23S_16251fa.woff);
+  src: url(../font/FZJianZhi-M23S_16251fa.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZZhengHeiS-EB-GB;
+  src: url(../font/FZZhengHeiS-EB-GB_c4a4f3b.woff);
+  src: url(../font/FZZhengHeiS-EB-GB_c4a4f3b.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZZhengHeiS-R-GB;
+  src: url(../font/FZZhengHeiS-R-GB_0189d78.woff);
+  src: url(../font/FZZhengHeiS-R-GB_0189d78.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZBeiWeiKaiShu-S19S;
+  src: url(../font/FZBeiWeiKaiShu-S19S_8a9c28a.woff);
+  src: url(../font/FZBeiWeiKaiShu-S19S_8a9c28a.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZTieJinLiShu-S17S;
+  src: url(../font/FZTieJinLiShu-S17S_ec1ee6d.woff);
+  src: url(../font/FZTieJinLiShu-S17S_ec1ee6d.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZYingBiKaiShu-S15S;
+  src: url(../font/FZYingBiKaiShu-S15S_1daee58.woff);
+  src: url(../font/FZYingBiKaiShu-S15S_1daee58.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZYingBiXingShu-S16S;
+  src: url(../font/FZYingBiXingShu-S16S_2235873.woff);
+  src: url(../font/FZYingBiXingShu-S16S_2235873.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZZJ-LJDFONT;
+  src: url(../font/FZZJ-LJDFONT_68fc050.woff);
+  src: url(../font/FZZJ-LJDFONT_68fc050.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZJingLeiS-R-GB;
+  src: url(../font/FZJingLeiS-R-GB_0bccc2a.woff);
+  src: url(../font/FZJingLeiS-R-GB_0bccc2a.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZShouJinShu-S10S;
+  src: url(../font/FZShouJinShu-S10S_62b4ce5.woff);
+  src: url(../font/FZShouJinShu-S10S_62b4ce5.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZMiaoWuS-GB;
+  src: url(../font/FZMiaoWuS-GB_70ba06f.woff);
+  src: url(../font/FZMiaoWuS-GB_70ba06f.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZHei-B01T;
+  src: url(../font/FZHei-B01T_a57116f.woff);
+  src: url(../font/FZHei-B01T_a57116f.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZCuYuan-M03T;
+  src: url(../font/FZCuYuan-M03T_5ef09db.woff);
+  src: url(../font/FZCuYuan-M03T_5ef09db.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZZhunYuan-M02T;
+  src: url(../font/FZZhunYuan-M02T_1a44311.woff);
+  src: url(../font/FZZhunYuan-M02T_1a44311.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZNewXiuLi-Z11T;
+  src: url(../font/FZNewXiuLi-Z11T_552e119.woff);
+  src: url(../font/FZNewXiuLi-Z11T_552e119.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZYingBiKaiShu-S15T;
+  src: url(../font/FZYingBiKaiShu-S15T_43da3a0.woff);
+  src: url(../font/FZYingBiKaiShu-S15T_43da3a0.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZBeiWeiKaiShu-Z15T;
+  src: url(../font/FZBeiWeiKaiShu-Z15T_d19ba06.woff);
+  src: url(../font/FZBeiWeiKaiShu-Z15T_d19ba06.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZBoYaSongT-GB;
+  src: url(../font/FZBoYaSongT-GB_f66865d.woff);
+  src: url(../font/FZBoYaSongT-GB_f66865d.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHeiT-B-GB;
+  src: url(../font/FZLanTingHeiT-B-GB_bf40be3.woff);
+  src: url(../font/FZLanTingHeiT-B-GB_bf40be3.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHeiT-DB-GBK;
+  src: url(../font/FZLanTingHeiT-DB-GBK_ad5ffd8.woff);
+  src: url(../font/FZLanTingHeiT-DB-GBK_ad5ffd8.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHeiT-R-GB;
+  src: url(../font/FZLanTingHeiT-R-GB_0a8eb2d.woff);
+  src: url(../font/FZLanTingHeiT-R-GB_0a8eb2d.woff) format("woff");
+}
+
+@font-face {
+  font-family: FZLanTingHeiT-EL-GB;
+  src: url(../font/FZLanTingHeiT-EL-GB_273f895.woff);
+  src: url(../font/FZLanTingHeiT-EL-GB_273f895.woff) format("woff");
+}
+
+@font-face {
+  font-family: NotoSansSC-Thin;
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansSC-Thin_cc42e5e.woff);
+  src: url(../font/NotoSansSC-Thin_cc42e5e.woff) format("woff");
+}
+
+@font-face {
+  font-family: RuiZiZhenYanTi;
+  font-style: normal;
+  src: url(../font/RuiZiZhenYanTiMianFeiShangYong-2.ttf);
+}
+
+@font-face {
+  font-family: NotoSansSC-Light;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansSC-Light_aba6b6d.woff);
+  src: url(../font/NotoSansSC-Light_aba6b6d.woff) format("woff");
+}
+
+@font-face {
+  font-family: NotoSansSC-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansSC-Regular_5fc590d.woff);
+  src: url(../font/NotoSansSC-Regular_5fc590d.woff) format("woff");
+}
+
+@font-face {
+  font-family: NotoSansSC-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansSC-Medium_16ba8f1.woff);
+  src: url(../font/NotoSansSC-Medium_16ba8f1.woff) format("woff");
+}
+
+@font-face {
+  font-family: NotoSansSC-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/NotoSansSC-Bold_f586a36.woff);
+  src: url(../font/NotoSansSC-Bold_f586a36.woff) format("woff");
+}
+
+@font-face {
+  font-family: NotoSansSC-Black;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/NotoSansSC-Black_22de1ba.woff);
+  src: url(../font/NotoSansSC-Black_22de1ba.woff) format("woff");
+}
+
+@font-face {
+  font-family: NotoSansSC-DemiLight;
+  src: url(../font/NotoSansSC-DemiLight_290d222.woff);
+  src: url(../font/NotoSansSC-DemiLight_290d222.woff) format("woff");
+}
+
+@font-face {
+  font-family: zcool-gdh;
+  src: url(../font/zcool-gdh_9a4f1b1.woff);
+  src: url(../font/zcool-gdh_9a4f1b1.woff) format("woff");
+}
+
+@font-face {
+  font-family: HappyZcool;
+  src: url(../font/HappyZcool_a5e333f.woff);
+  src: url(../font/HappyZcool_a5e333f.woff) format("woff");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../font/Alibaba-PuHuiTi-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiMedium;
+  font-weight: Medium;
+  font-style: normal;
+  src: url(../font/Alibaba-PuHuiTi-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiBold;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../font/Alibaba-PuHuiTi-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiHeavy;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../font/Alibaba-PuHuiTi-Heavy.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiLight;
+  font-weight: lighter;
+  font-style: italic;
+  src: url(../font/Alibaba-PuHuiTi-Light.otf) format("opentype");
+}

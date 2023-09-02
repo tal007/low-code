@@ -1,0 +1,9 @@
+{
+  "tip": "提示",
+  "willLeave": "即将离开当前页面，是否保存已有更改?",
+  "notSave": "不保存",
+  "saveAndLeave": "保存并离开",
+  "deleteConfirm": "确认删除{{name}}?",
+  "saveBasicFirst": "请先填写基础配置",
+  "formConn'tBeEmpty": "表单内容不能为空"
+}

@@ -1,0 +1,26 @@
+.left-panel {
+  // transition: all 0.1s linear;
+  height: 100%;
+
+  &.visible {
+    width: 268px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.hidden {
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .ant-tabs-nav-operations {
+    display: none !important;
+  }
+
+  .craft-layer-node {
+    h2 {
+      margin: 0;
+    }
+  }
+}

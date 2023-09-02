@@ -1,0 +1,80 @@
+@import "./style/antd-reset.less";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  /* background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(60, 186, 146)),
+    color-stop(0.72, rgb(253, 187, 45)),
+    color-stop(0.86, rgb(253, 187, 45))
+  ); */
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+[contenteditable] {
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+}
+[contenteditable]:focus {
+  outline: 1px solid var(--colorPrimary);
+  border-radius: 1px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.mouse-over-primary-color {
+  &:hover {
+    color: var(--colorPrimary);
+    fill: var(--colorPrimary);
+  }
+}
+
+// 暗黑模式下
+html[data-darkreader-scheme="dark"] {
+  .ant-segmented-block {
+    background-color: rgba(204, 211, 211, 0.4);
+  }
+  .ant-segmented:not(.ant-segmented-disabled):focus,
+  .ant-segmented:not(.ant-segmented-disabled):hover {
+    background-color: rgba(204, 211, 211, 0.4);
+  }
+  .ant-segmented-thumb {
+    background-color: rgb(204, 211, 211);
+  }
+  .ant-segmented-item-selected {
+    background-color: rgb(204, 211, 211);
+  }
+}

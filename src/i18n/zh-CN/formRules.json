@@ -1,0 +1,25 @@
+{
+  "required": "字段必填",
+  "max": "最大长度/最大值",
+  "min": "最小长度/最小值",
+  "type": "字段类型",
+  "typeNames": {
+    "string": "文本",
+    "method": "函数",
+    "array": "数组",
+    "object": "对象",
+    "number": "数字",
+    "date": "日期",
+    "boolean": "布尔",
+    "integer": "整数",
+    "float": "小数",
+    "regexp": "正则",
+    "email": "邮箱",
+    "url": "URL",
+    "hex": "十六进制"
+  },
+  "i18n": {
+    "required": "'${name}'必填",
+    "requiredTip": "{{name}}不能为空"
+  }
+}

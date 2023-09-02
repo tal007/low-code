@@ -1,0 +1,59 @@
+{
+  "tip": {
+    "createWidget": "请从左侧面板中点击或者拖拽元素创建子元素",
+    "selectWidget": "选择组件设置属性"
+  },
+  "leftPanel": {
+    "widget": "组件",
+    "kit": "套件",
+    "linkForm": "关联表单",
+    "compendium": "大纲",
+    "root": "根节点",
+    "code": "代码",
+    "searchWidget": "请输入关键字查询组件",
+    "group": {
+      "container": "容器",
+      "form": "表单控件",
+      "layout": "布局控件",
+      "show": "数据展示",
+      "user": "用户组织控件",
+      "extra": "扩展组件",
+      "button": "按钮",
+      "modal": "弹窗"
+    },
+    "doc": "详情"
+  },
+  "rightPanel": {
+    "segmented": {
+      "props": "属性",
+      "style": "样式",
+      "events": "事件",
+      "interface": "接口"
+    },
+    "i18n": {
+      "title": "标题",
+      "max_50": "最多50字",
+      "placeholder": "提示文字",
+      "defaultValue": "默认值",
+      "custom": "自定义",
+      "dataLinkage": "数据联动",
+      "formulaEditing": "公式编辑",
+      "vertical": "竖向排列",
+      "required": "必填",
+      "width": "宽度",
+      "flat": "选项平铺",
+      "itemVertical": "选项垂直",
+      "dateType": "日期类型"
+    },
+    "dataSource": {
+      "title": "每行对应一个选项，参考格式如下：",
+      "inputDemo": "输入示例：",
+      "format1": "格式一：显示值/选项值一致时",
+      "format2": "格式二：显示值/选项值不一致时",
+      "showValue": "显示值",
+      "trueValue": "选项值",
+      "chooseItem1": "选项一",
+      "chooseItem'sValue": "选项一的值"
+    }
+  }
+}

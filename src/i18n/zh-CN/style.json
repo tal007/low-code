@@ -1,0 +1,32 @@
+{
+  "width": "宽度",
+  "height": "高度",
+  "marginAndPadding": "边距",
+  "fontText": "文字内容",
+  "fontSize": "字号",
+  "fontFamily": "字体",
+  "fontStyle": "字体样式",
+  "fontWeight": "字体粗细",
+  "color": "字体颜色",
+  "tagName": "文字格式",
+  "textAlign": "文字位置",
+  "justifyAlign": "主轴对齐方式",
+  "alignAlign": "次轴对齐方式",
+  "rowSpace": "水平间隔",
+  "columnSpace": "垂直间隔",
+  "rowAlign": "水平对齐方式",
+  "columnAlign": "垂直对齐方式",
+  "xs": "屏幕 < 576px",
+  "sm": "屏幕 ≥ 576px",
+  "md": "屏幕 ≥ 768px",
+  "lg": "屏幕 ≥ 992px",
+  "xl": "屏幕 ≥ 1200px",
+  "xxl": "屏幕 ≥ 1600px",
+  "openFlex": "开启弹性布局",
+  "direction": "方向",
+  "ColSpan": "宽度",
+  "styleTip": {
+    "widthTip": "支持百分比与像素，例如：80%或者500px",
+    "heightTip": "支持百分比与像素，例如：80%或者500px，以及'auto'自动"
+  }
+}

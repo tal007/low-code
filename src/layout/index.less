@@ -1,0 +1,80 @@
+#page-layout {
+  .sidebar {
+    background: #001529;
+    height:calc(100vh - 64px);
+    overflow: auto;
+  }
+
+  .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .site-layout-background {
+    background: #fff;
+
+    &.layout-header {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // height: 60px;
+
+      .menus {
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .configs {
+        margin-right: 20px;
+        align-items: center;
+        font-size: 16px;
+      }
+    }
+
+    .ant-tabs-top {
+      height: 100%;
+      background-color: #f2f4f5;
+      .ant-tabs-content-holder {
+        position: relative;
+        height: 100%;
+        overflow: auto;
+        padding-left: 10px;
+        .ant-tabs-content.ant-tabs-content-top {
+          height: 100%;
+        }
+      }
+      .ant-tabs-tab-active{
+        border-bottom-color: #f0f0f0;
+        .ant-tabs-tab-btn{
+          color: #5288F9;
+        }
+      }
+      .ant-tabs-nav-wrap{
+        background-color: #fff;
+      }
+      .ant-tabs-nav{
+        background-color: #fff;
+        margin: 0 0 10px 0px;
+      }
+      .ant-tabs-tab{
+        border-radius: 0;
+        margin-left: 0;
+      }
+      .ant-tabs-tab-btn{
+        background-color: rgba(237, 243, 254, 1);
+        border-radius: 5px;
+      }
+    }
+  }
+}
