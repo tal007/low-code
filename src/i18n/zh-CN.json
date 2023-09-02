@@ -4,7 +4,7 @@
     "conquest": "征服"
   },
   "documentTitle": {
-    "editor": "迈越流程设计器"
+    "editor": "XX流程设计器"
   },
   "common": {
     "ok": "确定",
@@ -46,7 +46,7 @@
     "goHome": "回到首页",
     "username": "用户名",
     "login": "登录",
-    "appName": "迈越软件流程引擎系统",
+    "appName": "XX软件流程引擎系统",
     "success": "{{prefix}}成功",
     "fail": "{{prefix}}失败"
   },

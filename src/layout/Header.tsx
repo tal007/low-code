@@ -43,7 +43,7 @@ export const LayoutHeader = forwardRef(() => {
       style={headerStyle}
     >
       <div className="menus">
-        <h1>迈越低代码平台</h1>
+        <h1>XX低代码平台</h1>
       </div>
       <Space className="configs">
         <ThemeChange />
